@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* reset */
+body,button,div,h1,html{box-sizing:border-box;margin:0;padding:0}
+button,div,h1{font-family:'Roboto',sans-serif}
+
+/* counter */
+.counter{position:absolute;top:50%;left:50%;width:300px;padding:5px;text-align:center;transform:translate(-50%,-50%)}
+.counter:after{content:'';display:block;clear:both}
+.counter_tit{margin-bottom:10px;font-weight:200;font-size:24px;text-transform:uppercase}
+.counter_value{height:240px;margin-bottom:5px;padding:10px;border:1px solid #d3d3d3;background-color:#fcfcfc;font-size:62px;line-height:218px}
+.counter .btn{float:left;width:calc((100% - 10px) / 3);height:50px;margin-left:5px;border:1px solid #d3d3d3;background-color:#fcfcfc;cursor:pointer;outline:none;transition:all ease .2s}
+.counter .btn:nth-of-type(1){margin-left:0}
+.counter .btn:hover{border-color:#3079ed;background-color:#4d90fe;color:#fff}
