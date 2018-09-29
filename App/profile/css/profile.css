@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* reset */
+body,dt,dd,dl,td,th,ul{margin:0;padding:0}
+a{text-decoration:none}
+a,dd,dt,td,th{font-family:'Roboto',sans-serif}
+hr{display:none}
+th{font-weight:400}
+ul{list-style:none}
+
+/* wrap */
+.wrap{position:absolute;top:50%;left:50%;width:800px;transform:translate(-50%,-50%)}
+
+/* user */
+.user ul{margin-bottom:19px;border-bottom:1px solid #e5e5e5}
+.user ul:after{content:'';display:block;clear:both}
+.user li{float:left;margin:0 0 -1px -1px;text-align:center;border:1px solid #e5e5e5}
+.user li:nth-of-type(1){margin-left:0}
+.user li.on a{background-color:#6c5ce7;color:#fff}
+.user a{display:block;width:100px;height:60px;font-size:14px;color:#444;line-height:60px}
+.user a:hover{background-color:#6c5ce7;color:#fff}
+
+/* info */
+.info_tbl{width:100%;border:1px solid #e5e5e5;border-collapse:collapse;border-spacing:0}
+.info_tbl tr{border-bottom: 1px solid #f1f1f1}
+.info_tbl tr:nth-of-type(odd){background-color:#fcfcfc}
+.info_tbl tr:nth-of-type(even){background-color:#fff}
+.info_tbl tr:nth-last-of-type(1){border-bottom-width:0}
+.info_tbl th,
+.info_tbl td{padding:15px 20px;font-size:13px;text-transform:capitalize}
+.info_tbl th{border-right:1px solid #f1f1f1;text-align:left}
