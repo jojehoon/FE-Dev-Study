@@ -10,8 +10,9 @@
 
 ## Practice
 
-* [생성자와 프로토타입](https://github.com/jojehoon/FE-Dev-Study/tree/master/Practice/01_constructor&prototype)
-* [클래스](https://github.com/jojehoon/FE-Dev-Study/tree/master/Practice/02_class)
+* [생성자와 프로토타입](https://github.com/jojehoon/FE-Dev-Study/tree/master/Practice/01_constructor&prototype/homework.js)
+* [클래스](https://github.com/jojehoon/FE-Dev-Study/tree/master/Practice/02_class/homework.js)
+* [클래스 - 상속](https://github.com/jojehoon/FE-Dev-Study/tree/master/Practice/03_class_extends/homework.js)
 
 ## Ref
 * [메서드와 함수의 차이](https://github.com/jojehoon/FE-Dev-Study/blob/master/Ref/%EB%A9%94%EC%84%9C%EB%93%9C%EC%99%80%20%ED%95%A8%EC%88%98%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
