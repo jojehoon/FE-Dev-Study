@@ -4,7 +4,7 @@
 ## App
 
 * [Counter](https://github.com/jojehoon/FE-Dev-Study/tree/master/App/counter)
-* [Diary](https://github.com/jojehoon/FE-Dev-Study/tree/master/App/diary)
+* [To-Do List](https://github.com/jojehoon/FE-Dev-Study/tree/master/App/todoList)
 * [Lotto](https://github.com/jojehoon/FE-Dev-Study/tree/master/App/lotto)
 * [Profile](https://github.com/jojehoon/FE-Dev-Study/tree/master/App/profile)
 
