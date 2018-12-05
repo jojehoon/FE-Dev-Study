@@ -7,7 +7,6 @@
   * Function.prototype.apply()
   * Function.prototype.bind()
 <br>
-<br>
 
 
 ## this의 기본 값
@@ -21,7 +20,6 @@
 * Method
 
   * 해당 객체의 인스턴스
-<br>
 <br>
 
 
@@ -41,7 +39,6 @@ sum.call(null, 5, 10);
 sum.apply(nul, [5, 10]);
 // null은 this를 대체
 ```
-<br>
 
 
 ### `bind`
@@ -57,7 +54,6 @@ var sum = function(x, y){
 var tmp = sum.bind(null, 5);
 tmp(10)
 ```
-<br>
 
 
 ### `call & apply와 bind의 차이`
