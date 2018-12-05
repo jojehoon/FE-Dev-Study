@@ -5,7 +5,9 @@
 * 다음 메서드를 이용하여 this의 값을 명시적으로 지정하여 함수를 실행시킬 수 있다
 ```
   * Function.prototype.call()
+  
   * Function.prototype.apply()
+  
   * Function.prototype.bind()
  ```
 <br>
