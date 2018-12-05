@@ -3,23 +3,26 @@
 * 함수가 호출된 위치에 따라 this의 값이 결정
 
 * 다음 메서드를 이용하여 this의 값을 명시적으로 지정하여 함수를 실행시킬 수 있다
+```
   * Function.prototype.call()
   * Function.prototype.apply()
   * Function.prototype.bind()
+ ```
 <br>
 
 
 ## this의 기본 값
 
 * Function
-
+```
   * Strict Mode     : undefined
-
   * Non-Strict Mode : window(전역객체)
+```
 
 * Method
-
+```
   * 해당 객체의 인스턴스
+```
 <br>
 
 
