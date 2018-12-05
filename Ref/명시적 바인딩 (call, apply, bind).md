@@ -4,12 +4,14 @@
 
 * 다음 메서드를 이용하여 this의 값을 명시적으로 지정하여 함수를 실행시킬 수 있다
   * Function.prototype.call()
-
   * Function.prototype.apply()
-
   * Function.prototype.bind()
+<br>
+<br>
+
 
 ## this의 기본 값
+
 * Function
 
   * Strict Mode     : undefined
@@ -19,11 +21,13 @@
 * Method
 
   * 해당 객체의 인스턴스
+<br>
+<br>
 
 
 ## this의 명시적 값
 
-### call, apply
+### `call, apply`
 
   * 첫번째 매개변수는 this가 될 대상을 지정, 2번째 매개변수는 호출하는 함수로 전달
 
@@ -37,8 +41,10 @@ sum.call(null, 5, 10);
 sum.apply(nul, [5, 10]);
 // null은 this를 대체
 ```
+<br>
 
-### bind
+
+### `bind`
 
   * bind는 함수를 직접 호출하지 않고 this가 명시적으로 설정된 함수를 반환
 
@@ -51,8 +57,10 @@ var sum = function(x, y){
 var tmp = sum.bind(null, 5);
 tmp(10)
 ```
+<br>
 
-### call & apply와 bind의 차이
+
+### `call & apply와 bind의 차이`
 
 * call, apply은 함수를 즉시 호출
 
