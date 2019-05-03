@@ -1,4 +1,4 @@
-# Front-End Developer Study
+# JavaScript Study
 
 
 ## App
